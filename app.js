@@ -1,3 +1,5 @@
+// Chapter 6-9
+
 // Question 1 
 
 document.write("<br>Result:");
@@ -127,3 +129,239 @@ tableResult += "<tr><td>Percentage</td><td></td><td>" + percentage1.toFixed(2) +
 tableResult += "</table>";
 
 document.write(tableResult);
+
+// End of Chps
+
+// Practice Work
+
+var a = +prompt();
+
+var b = +prompt();
+
+console.log(a + b);
+
+var firstName = prompt("Enter first name")
+
+var lastName = prompt("Enter last name")
+
+console.log("Hello Mr. " + firstName + " " + lastName)
+
+var country = prompt("In which country you live")
+
+if(country === "Pakistan")
+{
+    console.log("Ohh nice")
+}
+
+var study = prompt("In which class do you study")
+
+if(study === "xii")
+{
+    console.log("Great keep it  up")
+}
+
+var percentage = prompt("Enter your percentage");
+
+if(percentage >= 80 && percentage <= 100 )
+{
+    alert("A+")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A")
+}
+
+
+var userAge = prompt("Whats your age")
+
+var userWeight = +prompt("Whats your Weight")
+
+var userGender = prompt("Whats your gender")
+
+if(userAge >=21 && userWeight === 86 && userGender === "male")
+{
+    alert("Come to try out Man")
+}
+
+else if(userAge >=50 && userWeight === 60 && userGender === "male")
+{
+    alert("Come to try out Old Man")
+}
+
+else if(userAge >=30 && userWeight === 90 && userGender === "female")
+{
+    alert("Come to try out Lady")
+}
+else if(userAge >=70 && userWeight === 50 && userGender === "female")
+{
+    alert("Come to try out Old Lady")
+}
+else{
+    alert("Your are not allowed")
+}
+
+// Chapter 9-11
+
+// Question 1 
+
+var city = prompt("Enter your city")
+
+if(city === "Karachi")
+{
+    alert("“Welcome to city of lights”")
+}
+
+// Question 2  
+
+var gender = prompt("Enter your gender")
+
+if(gender === "male")
+{
+    alert("Good Morning Sir")
+}
+if(gender === "female")
+{
+    alert("Good Morning Madam")
+}
+
+// Questiion 3 
+
+var Red = prompt("Must Stop")
+
+var Yellow = prompt("Ready to move")
+
+var Green = prompt("Move now")
+
+var signalColor = prompt("Traffic Signal")
+
+message = "";
+
+if(signalColor === "red"){
+    message = "Must Stop"
+}
+
+if(signalColor === "yellow"){
+    message = "Ready to move"
+}
+
+if(signalColor === "green"){
+    message = "Move Now"
+}
+alert(message)
+
+// Question 4 
+
+var fuel = +prompt("Remaining fuel in car")
+
+if(fuel <= 0.25 ){
+    alert(" “Please refill the fuel in your car”")
+}
+
+// Question 5 
+
+// a
+ 
+var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+}
+
+// b
+
+var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is false");
+}
+
+// c
+
+var c = 12;
+if (c++ === 13){
+alert("condition 1 is f");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is f");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+
+// d
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+
+// e
+
+if (true)
+{
+   alert("True");
+}
+if (false)
+{
+    alert("False");
+}
+
+// f
+
+if("car" < "cat")
+{
+    alert("car is smaller than cat");
+}
+
+// Question 6 
+
+var percentage = prompt("Enter your percentage");
+
+if(percentage >= 80 && percentage <= 100 )
+{
+    alert("A+ , Excellent")
+}
+else if(percentage >= 70 && percentage <= 80){
+    alert("A , Good")
+}
+else if(percentage >= 60 && percentage <= 70){
+    alert("B , You need to improve")
+}
+else if(percentage >= 50 && percentage <= 60){
+    alert("Fail , Sorry")
+}
+
+// Question 7 
+
+var number = +prompt("Guess the secret number")
+
+var secretNumber = 4;
+
+if(number === secretNumber ){
+    alert("“Bingo! Correct answer”.")
+}
+
+else if(number === ++secretNumber){
+    alert("“Close enough to the correct answer”.")
+}
+
+else{
+    alert("Wrong answer")
+}
+
+// Question 8 
+
